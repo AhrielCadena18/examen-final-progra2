@@ -1,27 +1,27 @@
-# Angular1
+Detalles a considerar 
+● Refresh cada que se inicia sesion con otro usuario y Si bien funciona el descuento, no baja el precio cuando se elimina un boleto.
+Usuarios: 
+ 
+Email: felipeguzman@gmail.com 
+Contraseña: felipe123 
+Email: laura@gmail.com 
+Contraseña: laura123 
+Email: valcondori@gmail.com 
+Contraseña: valeria123 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+El mas usado es:
+Email: daniel.aldazosa@ucb.edu.bo 
+Contraseña: Daniel123
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+● En la parte de search se puede buscar según los # que existan o también por el nombre del evento, los # determinados son: 
+- Cultura 
+- Deporte 
+- Concierto 
+- Fiesta 
+Pero no por fecha o ubicación pero intentamos subsanar con que se pueda buscar con el nombre del evento y así llegue a ser un search más conmpleto. 
+● Cuando se entra a home tarda en cargar los eventos pero también carga más rápido si se aprieta en home pero de todas maneras existe un retraso de segundos para la carga de los eventos. 
+● Hay documentos que no contienen nada pero no pudimos eliminar porque afecta al documento. 
+● El proyecto aún lleva el nombre de Progra2_angular ya que al cambiarlo afecta al proyecto. 
+● Los eventos son subidos por el usuario donde tiene la opción de editar el evento y poner los datos al igual que lo puede borrar entonces los datos de los eventos no están implementados con POO pero si con firebase en un componente que se llama event. 
+Extras 
+● Como extra dentro el proyecto tenemos la opción de que el usuario pueda crear/subir un nuevo evento. 
